@@ -4,7 +4,7 @@ from discord.ext import commands
 
 TOKEN =  "MTE0MjYwNjUzMDkyMzk5NTIxNg.G6g78w.av-jB9gjTS2VSmtVuOpzxX02gVwfAImWhao4XQ"
 #prefix itu yang ?samp ? namanya prefix
-PRRFIX = "?"
+PREFIX = "?"
 
 client = commands.Bot(command_prefix=PREFIX)
 client.remove_command('help')
